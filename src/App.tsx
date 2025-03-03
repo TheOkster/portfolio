@@ -47,13 +47,15 @@ function App() {
       />
       <Project
         image=""
-        title="Image Comparison"
+        title="Image Picker"
+        link="https://github.com/TheOkster/ImagePicker"
         date_string="2021"
         body="A project used to help me compare two images and pick one I found was better without knowing which one was which. This was made using C#."
       />
       <Project
         image={WebsiteImage}
         title="This Website!"
+        link="https://github.com/TheOkster/portfolio"
         date_string="Mar 2, 2024"
         body="Very small project of course but this website was created using very simple React code. Plan to make it prettier soon!"
       />
