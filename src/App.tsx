@@ -13,20 +13,20 @@ function App() {
         <h1>Joshua Oki's Projects</h1>
       </header>
       <Project
-        image="/Images/Test.png"
-        title="Cantona"
-        date_string="Mar 2025"
-        body="An Android music app created using Jetpack Compose and Kotlin. Still a work-in-progress but the core functionality is working. "
-      />
-      <Project
-        image="/Images/New Smoothie.png"
+        image="portfolio/Images/New Smoothie.png"
         title="Smoothlie"
         date_string="Jan 2024"
         link="https://github.com/TheOkster/Smoothlie"
         body="An app created as part of a team of 3 for MIT’s web.lab class/competition. This app suggests a schedule for users based off the tasks they have to do and their existing commitments. This wass created using React, Javascript, and MongoDB. I worked on both the front-end and back-end, specifically implementing most of the pages and the MongoDB database."
       />
       <Project
-        image="/Images/3ds.jpeg"
+        image="portfolio/Images/Cantona.png"
+        title="Cantona"
+        date_string="Mar 2025"
+        body="An Android music app created using Jetpack Compose and Kotlin. Still a work-in-progress but the core functionality is working. "
+      />
+      <Project
+        image="portfolio/Images/3ds.jpeg"
         title="3DS Game Time Parser"
         date_string="Jan 2024"
         link="https://github.com/TheOkster/3DSActivityLogParser/blob/main/main.py"
@@ -46,13 +46,13 @@ function App() {
         body="A project used to help me compare two images and pick one I found was better without knowing which one was which. This was made using C#."
       />
       <Project
-        image="/Images/Website.png"
+        image="portfolio/Images/Website.png"
         title="This Website!"
         date_string="Mar 2, 2024"
         body="Very small project of course but this website was created using very simple React code. Plan to make it prettier soon!"
       />
       <Project
-        image="/Images/NYT.png"
+        image="portfolio/Images/NYT.png"
         title="NYT Article Analyzer"
         date_string="Summer 2024"
         body="A very small project, but was used to help assist me classify articles as living wage related for a work project. This was made using Swift."
