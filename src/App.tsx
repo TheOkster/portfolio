@@ -13,7 +13,7 @@ function App() {
         <h1>Joshua Oki's Projects</h1>
       </header>
       <Project
-        image="portfolio/Images/New Smoothie.png"
+        image="./portfolio/Images/New Smoothie.png"
         title="Smoothlie"
         date_string="Jan 2024"
         link="https://github.com/TheOkster/Smoothlie"
