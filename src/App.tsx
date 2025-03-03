@@ -28,6 +28,7 @@ function App() {
         image={CantonaImage}
         title="Cantona"
         date_string="Mar 2025"
+        link="https://github.com/TheOkster/Cantona"
         body="An Android music app created using Jetpack Compose and Kotlin. Still a work-in-progress but the core functionality is working. "
       />
       <Project
