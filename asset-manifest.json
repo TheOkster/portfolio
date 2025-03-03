@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.de42dfd0.css",
-    "main.js": "/portfolio/static/js/main.351ff80f.js",
+    "main.js": "/portfolio/static/js/main.a10802a1.js",
     "static/js/453.002c2bf5.chunk.js": "/portfolio/static/js/453.002c2bf5.chunk.js",
+    "static/media/Cantona.png": "/portfolio/static/media/Cantona.b721521b3dd326912ce1.png",
+    "static/media/Website.png": "/portfolio/static/media/Website.982bd0e56e0ff2a07931.png",
     "static/media/Roboto-VariableFont_wdth,wght.ttf": "/portfolio/static/media/Roboto-VariableFont_wdth,wght.3c9d0f6513f7cfe91016.ttf",
+    "static/media/3ds.jpeg": "/portfolio/static/media/3ds.c41672d206c99af30e03.jpeg",
+    "static/media/NYT.png": "/portfolio/static/media/NYT.cdb6ea4ee4fee0cfbfb5.png",
+    "static/media/New Smoothie.png": "/portfolio/static/media/New Smoothie.d9531a5a421f1f1c8960.png",
     "index.html": "/portfolio/index.html",
     "main.de42dfd0.css.map": "/portfolio/static/css/main.de42dfd0.css.map",
-    "main.351ff80f.js.map": "/portfolio/static/js/main.351ff80f.js.map",
+    "main.a10802a1.js.map": "/portfolio/static/js/main.a10802a1.js.map",
     "453.002c2bf5.chunk.js.map": "/portfolio/static/js/453.002c2bf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de42dfd0.css",
-    "static/js/main.351ff80f.js"
+    "static/js/main.a10802a1.js"
   ]
 }
