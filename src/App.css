@@ -15,7 +15,15 @@ body {
 body,
 header,
 footer {
-  background-color: #d3dfe4;
+  background-color: #37505c;
+  background: linear-gradient(
+    to right,
+    #37505c 0%,
+    #2d454d 30%,
+    #113537 50%,
+    #2d454d 70%,
+    #37505c 100%
+  );
   font-family: "Roboto";
 }
 
@@ -24,10 +32,10 @@ header h1 {
   text-align: center;
   margin-left: 2rem;
   color: #e15b54;
-  /* text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5); */
-  /* -webkit-text-stroke: 0.1em white; */
-  paint-order: stroke fill;
-  font-size: 48px;
+  background-color: #fff;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+  display: inline-block;
 }
 /* 
 .App-logo {

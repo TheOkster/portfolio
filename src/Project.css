@@ -6,6 +6,7 @@
   align-items: center;
   padding: 20px;
   border-radius: 12px;
+  padding-top: 1rem;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
 }
@@ -13,9 +14,6 @@
   color: #36454f;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
     0 0 15px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
-}
-.project {
-  padding-top: 1rem;
 }
 .project img {
   flex: 0 0 30%;
@@ -40,6 +38,8 @@
 }
 .date {
   margin-top: -1rem;
+  color: #37505c;
+  font-weight: bold;
 }
 .projectInfo h2 {
   margin-top: 1rem;
@@ -48,7 +48,11 @@
   text-decoration: none;
   color: #e15b54;
 }
-.pro .projectInfo h2 a:hover {
+
+.projectInfo p {
+  color: #37505c;
+}
+.projectInfo h2 a:hover {
   text-decoration: underline;
 }
 
