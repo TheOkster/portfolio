@@ -25,7 +25,7 @@ const Project: React.FC<ProjectProps> = ({
       )}
       <div className="projectInfo">
         <h2>{link ? <a href={link}>{title}</a> : <span>{title}</span>}</h2>
-        <h4>{date_string}</h4>
+        <div className="date">{date_string}</div>
         <p>{body}</p>
       </div>
     </section>
