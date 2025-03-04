@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.00a47edf.css",
-    "main.js": "/portfolio/static/js/main.dbd62106.js",
+    "main.css": "/portfolio/static/css/main.ddf3f974.css",
+    "main.js": "/portfolio/static/js/main.f227884b.js",
     "static/js/453.002c2bf5.chunk.js": "/portfolio/static/js/453.002c2bf5.chunk.js",
     "static/media/Cantona.png": "/portfolio/static/media/Cantona.b721521b3dd326912ce1.png",
     "static/media/Website.png": "/portfolio/static/media/Website.982bd0e56e0ff2a07931.png",
@@ -10,12 +10,12 @@
     "static/media/NYT.png": "/portfolio/static/media/NYT.cdb6ea4ee4fee0cfbfb5.png",
     "static/media/New Smoothie.png": "/portfolio/static/media/New Smoothie.d9531a5a421f1f1c8960.png",
     "index.html": "/portfolio/index.html",
-    "main.00a47edf.css.map": "/portfolio/static/css/main.00a47edf.css.map",
-    "main.dbd62106.js.map": "/portfolio/static/js/main.dbd62106.js.map",
+    "main.ddf3f974.css.map": "/portfolio/static/css/main.ddf3f974.css.map",
+    "main.f227884b.js.map": "/portfolio/static/js/main.f227884b.js.map",
     "453.002c2bf5.chunk.js.map": "/portfolio/static/js/453.002c2bf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00a47edf.css",
-    "static/js/main.dbd62106.js"
+    "static/css/main.ddf3f974.css",
+    "static/js/main.f227884b.js"
   ]
 }
