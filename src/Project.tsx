@@ -2,7 +2,7 @@ import React from "react";
 import "./Project.css";
 
 type ProjectProps = {
-  image: string;
+  image?: string;
   date_string: string;
   title: string;
   body: string;
@@ -18,7 +18,11 @@ const Project: React.FC<ProjectProps> = ({
 }) => {
   return (
     <section className="project">
-      <img src={image} alt={title} />
+      {image ? (
+        <img src={image} alt={title} />
+      ) : (
+        <div className="emptyleft"></div>
+      )}
       <div className="projectInfo">
         <h2>{link ? <a href={link}>{title}</a> : <span>{title}</span>}</h2>
         <h4>{date_string}</h4>

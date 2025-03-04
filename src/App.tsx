@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Project from "./Project";
 import CantonaImage from "./images/Cantona.png";
@@ -22,7 +21,7 @@ function App() {
         title="Smoothlie"
         date_string="Jan 2024"
         link="https://github.com/TheOkster/Smoothlie"
-        body="An app created as part of a team of 3 for MIT’s web.lab class/competition. This app suggests a schedule for users based off the tasks they have to do and their existing commitments. This was created using React, Javascript, and MongoDB. I worked on both the front-end and back-end, specifically implementing most of the pages and the MongoDB database."
+        body="An app created as part of a team of 3 for MIT’s web.lab class/competition. This app suggests a schedule for users based on the tasks they have to do and their existing commitments. This was created using React, JavaScript, and MongoDB. I worked on both the front-end and back-end, specifically implementing most of the pages and the MongoDB database."
       />
       <Project
         image={CantonaImage}
@@ -39,14 +38,12 @@ function App() {
         body="Created a project to help analyze Nintendo 3DS activity log (game time) data from hex files in Python. The difficult part of this project was figuring out which hex values correlated to game times as this was not officially documented anywhere."
       />
       <Project
-        image=""
         title="GameCube & Wii GOG Galaxy Plugin"
-        date_string="2020"
+        date_string="2019-2021"
         link="https://github.com/JTNDev/galaxy-integration-gc"
         body="This imports GameCube and Wii Games into the program GOG Galaxy and allows users to see which GameCube and Wii games they have in their library. This was created using Python."
       />
       <Project
-        image=""
         title="Image Picker"
         link="https://github.com/TheOkster/ImagePicker"
         date_string="2021"

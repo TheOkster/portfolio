@@ -21,6 +21,11 @@
   object-position: top;
   margin-left: 2rem;
 }
+.project .emptyleft {
+  flex: 0 0 30%;
+  max-width: 30%;
+  margin-left: 2rem;
+}
 
 .projectInfo {
   flex: 1 1 auto;
