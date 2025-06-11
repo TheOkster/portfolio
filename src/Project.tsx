@@ -6,7 +6,7 @@ type ProjectProps = {
   date_string: string;
   title: string;
   body: string;
-  link?: string | undefined;
+  href?: string | undefined;
 };
 
 const Project: React.FC<ProjectProps> = ({
@@ -14,19 +14,19 @@ const Project: React.FC<ProjectProps> = ({
   date_string,
   title,
   body,
-  link = undefined,
+  href = undefined,
 }) => {
   return (
     <section className="project">
-      {image ? (
-        <img src={image} alt={title} />
-      ) : (
-        <div className="emptyleft"></div>
-      )}
-      <div className="projectInfo">
-        <h2>{link ? <a href={link}>{title}</a> : <span>{title}</span>}</h2>
+      <div className="leftProj">
         <div className="date">{date_string}</div>
-        <p>{body}</p>
+        <img className="image" alt="" src={image} />
+      </div>
+      <div className="rightProj">
+        <a className="title" href={href}>
+          {title}
+        </a>
+        <p className="description">{body}</p>
       </div>
     </section>
   );

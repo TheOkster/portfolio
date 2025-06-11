@@ -1,42 +1,58 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Inter";
   src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: "MyCustomFont", sans-serif;
+  font-family: "Inter";
+  background: #171721;
 }
 
 .App {
   text-align: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
 }
-body,
+
 header,
 footer {
-  background-color: #37505c;
-  background: linear-gradient(
-    to right,
-    #37505c 0%,
-    #2d454d 30%,
-    #113537 50%,
-    #2d454d 70%,
-    #37505c 100%
-  );
-  font-family: "Roboto";
+  font-family: "Inter";
 }
 
 header h1 {
-  font-family: "Roboto";
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Inter";
+  color: #ffffff;
   text-align: center;
-  margin-left: 2rem;
-  color: #e15b54;
-  background-color: #fff;
-  padding: 0.25em 0.5em;
-  border-radius: 4px;
+  position: relative;
   display: inline-block;
 }
+
+.aboutMe {
+  color: #ffffff;
+  font-family: "Inter";
+  text-align: start;
+  font-size: 1.25rem;
+}
+
+.aboutMe h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.aboutMe h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
 /* 
 .App-logo {
   height: 40vmin;
