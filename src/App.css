@@ -10,7 +10,7 @@ body {
   background: #171721;
 }
 
-.App {
+.outerColumns {
   text-align: center;
   justify-items: center;
   display: flex;
@@ -53,6 +53,32 @@ header h1 {
   font-weight: 500;
 }
 
+.outerColumns {
+  display: "flex";
+  height: "100vh";
+  overflow: "hidden";
+}
+
+.outerColumns .aboutMe {
+  flex: "0 0 30%";
+  height: "100vh";
+  overflow: "hidden";
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "center";
+  margin-left: "5rem";
+}
+@media (max-width: 600px) {
+  h1 {
+    padding-top: 2rem;
+  }
+  .outerColumns {
+    flex-direction: column;
+  }
+  .outerColumns div {
+    overflow: "auto";
+  }
+}
 /* 
 .App-logo {
   height: 40vmin;

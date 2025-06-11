@@ -17,7 +17,7 @@ function App() {
       The goal is to display the about me and projects in two halves of the screen.
       The about me is constant, while the projects can scroll.
       */}
-      <div style={{ display: "flex", height: "100vh", overflow: "hidden" }}>
+      <div className="outerColumns">
         <div
           className="aboutMe"
           style={{
