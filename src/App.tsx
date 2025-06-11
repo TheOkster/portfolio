@@ -18,18 +18,7 @@ function App() {
       The about me is constant, while the projects can scroll.
       */}
       <div className="outerColumns">
-        <div
-          className="aboutMe"
-          style={{
-            flex: "0 0 30%",
-            height: "100vh",
-            overflow: "hidden",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            marginLeft: "5rem",
-          }}
-        >
+        <div className="aboutMe">
           <h1>Joshua Oki</h1>
           <h2>Student</h2>
           <p className="desc">
@@ -65,7 +54,7 @@ function App() {
               title="Smoothlie"
               date_string="Jan 2024"
               href="https://github.com/TheOkster/Smoothlie"
-              body="An app created as part of a team of 3 for MIT’s web.lab class/competition. This app suggests a schedule for users based on the tasks they have to do and their existing commitments. This was created using React, JavaScript, and MongoDB. I worked on both the front-end and back-end, specifically implementing most of the pages and the MongoDB database. isfiewjfiewjfeijiwjfeijewifjewifjiewjfiewjfiejiwfjiewjfeiwjfiewjfijeiwfjewiejfiwejfiwfjw"
+              body="An app created as part of a team of 3 for MIT’s web.lab class/competition. This app suggests a schedule for users based on the tasks they have to do and their existing commitments. This was created using React, JavaScript, and MongoDB. I worked on both the front-end and back-end, specifically implementing most of the pages and the MongoDB database."
             />
             <Project
               image={CantonaImage}
