@@ -35,7 +35,7 @@ function App() {
             flex: 1,
             display: "flex",
             flexDirection: "column",
-            overflowY: "auto",
+            overflowY: "scroll",
           }}
         >
           <div
