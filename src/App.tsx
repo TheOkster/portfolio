@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Project from "./Project";
 import CantonaImage from "./images/Cantona.png";
+import SSImage from "./images/FFVII_from_model.png";
 import SmoothieImage from "./images/New Smoothie.png";
 import DSImage from "./images/3ds.jpeg";
 import NYT from "./images/NYT.png";
@@ -50,11 +51,10 @@ function App() {
              * Consider automatically populating this from a file or the like.
              */}
             <Project
-              image={SmoothieImage}
-              title="Smoothlie"
-              date_string="Jan 2024"
-              href="https://github.com/TheOkster/Smoothlie"
-              body="An app created as part of a team of 3 for MIT’s web.lab class/competition. This app suggests a schedule for users based on the tasks they have to do and their existing commitments. This was created using React, JavaScript, and MongoDB. I worked on both the front-end and back-end, specifically implementing most of the pages and the MongoDB database."
+              image={SSImage}
+              title="Game Supersampling Project"
+              date_string="Apr 2025 - May 2025"
+              body="A project made during MIT’s Intro to Computer Vision that upsamples games using a lightweight Pytorch model exported to TensorRT trained off IGDB screenshots. The goal was for the project to be applied to game windows and report back to the user with low latency. The model works fine, but the integration still needs to be worked on."
             />
             <Project
               image={CantonaImage}
@@ -62,6 +62,13 @@ function App() {
               date_string="Mar 2025"
               href="https://github.com/TheOkster/Cantona"
               body="An Android music app created using Jetpack Compose and Kotlin. Still a work-in-progress but the core functionality is working. "
+            />
+            <Project
+              image={SmoothieImage}
+              title="Smoothlie"
+              date_string="Jan 2024"
+              href="https://github.com/TheOkster/Smoothlie"
+              body="An app created as part of a team of 3 for MIT’s web.lab class/competition. This app suggests a schedule for users based on the tasks they have to do and their existing commitments. This was created using React, JavaScript, and MongoDB. I worked on both the front-end and back-end, specifically implementing most of the pages and the MongoDB database."
             />
             <Project
               image={DSImage}
@@ -80,20 +87,20 @@ function App() {
               title="Image Picker"
               href="https://github.com/TheOkster/ImagePicker"
               date_string="2021"
-              body="A project used to help me compare two images and pick one I found was better without knowing which one was which. This was made using C#."
+              body="A project used to help me compare two images and pick one I found was better without knowing which one was which. This was made using C# and UWP."
             />
             <Project
               image={WebsiteImage}
               title="This Website!"
               href="https://github.com/TheOkster/portfolio"
               date_string="Mar 2, 2024"
-              body="Very small project of course but this website was created using very simple React code. Plan to make it prettier soon!"
+              body="This a very small project but this website was created using React code."
             />
             <Project
               image={NYT}
               title="NYT Article Analyzer"
               date_string="Summer 2024"
-              body="This is a very small project, but was used to help assist me classify articles as living wage related for a work project. This was made using Swift."
+              body="This is a very small project, but was used to help assist me classify articles as living wage related for a work project. This was made using Swift and AppKit."
             />
           </div>
         </div>

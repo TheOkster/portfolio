@@ -13,8 +13,10 @@
   backdrop-filter: blur(var(--blur-amount)) brightness(var(--brightness));
   border: 1.5px solid var(--border-color);
   border-radius: var(--border-radius);
+  background: linear-gradient(96deg, #2e3c50 3.98%, #40596b 99.18%);
+
   width: fit-content;
-  max-width: 592px;
+  max-width: 750px;
   margin-top: 0.6rem;
   margin-bottom: 0.6rem;
   padding: 2rem;
@@ -49,7 +51,6 @@
   max-height: 80%;
   max-width: 100%;
   object-fit: cover;
-  margin-top: auto;
 }
 
 .leftProj .date {
@@ -63,16 +64,21 @@
 .project .title {
   color: var(--text-color);
   font-family: var(--font-primary);
-  font-size: clamp(1rem, 3vh, 1.5rem);
+  font-size: 1.5rem;
   font-weight: 500;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  margin-top: 0.1rem;
+  text-align: left;
+}
+a {
+  text-decoration: none;
 }
 
 .project .description {
   color: var(--text-color);
   font-family: var(--font-secondary);
-  font-size: clamp(0rem, 2vh, 1.125rem);
+  font-size: 1.125rem;
   font-weight: 400;
   text-align: left;
   word-break: break-word;
