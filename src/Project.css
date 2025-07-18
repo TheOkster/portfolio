@@ -13,7 +13,7 @@
   backdrop-filter: blur(var(--blur-amount)) brightness(var(--brightness));
   border: 1.5px solid var(--border-color);
   border-radius: var(--border-radius);
-  background: linear-gradient(96deg, #2e3c50 3.98%, #40596b 99.18%);
+  background: linear-gradient(96deg, #2a2f36 3.98%, #2a2f36 99.18%);
 
   width: fit-content;
   max-width: 750px;
