@@ -1,12 +1,18 @@
-a.links {
-  display: flex;
-  justify-content: center;
-}
+ 
+
 .links a .image {
   max-height: 3.75rem;
-  /* max-height: 3.39531rem; */
   width: auto;
   padding: 1rem;
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* critical */
+  box-sizing: border-box;
 }
 :root {
   --blur-amount: 10px;
@@ -24,7 +30,7 @@ a.links {
   border: 3px solid var(--border-color);
   border-radius: var(--border-radius);
   background: rgba(226, 163, 199, 0.08);
-  max-width: min(60rem, 90vw);
+  max-width: min(60rem, calc(100vw - 2rem));
   margin: 0.6rem 1rem;
   padding: 2rem;
   display: flex;
@@ -41,7 +47,6 @@ a.links {
   padding-left: 2rem;
   padding-right: 2rem;
   overflow: hidden;
-  height: 100%;
 }
 
 .rightProj {
@@ -49,8 +54,7 @@ a.links {
   flex-direction: column;
   align-items: center;
   display: flex;
-  min-width: 0;
-  min-height: 0;
+
 }
 .leftProj .image {
   display: block;
@@ -95,4 +99,30 @@ a {
   text-align: center;
   word-break: break-word;
   overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .leftProj {
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    flex: none;
+  }
+
+  .rightProj {
+    justify-content: flex-start;
+    width: 100%;
+    display: flex;
+    flex: none;
+    min-width: 0;
+  }
 }
