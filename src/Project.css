@@ -1,9 +1,19 @@
+a.links {
+  display: flex;
+  justify-content: center;
+}
+.links a .image {
+  max-height: 3.75rem;
+  /* max-height: 3.39531rem; */
+  width: auto;
+  padding: 1rem;
+}
 :root {
   --blur-amount: 10px;
   --brightness: 100%;
   --border-radius: 2.5rem;
-  --border-color: #ffffff;
-  --text-color: #ffffff;
+  --border-color: #60435F;
+  --text-color: #000000;
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Roboto", sans-serif;
   --max-width: 90vw;
@@ -11,65 +21,63 @@
 
 .project {
   backdrop-filter: blur(var(--blur-amount)) brightness(var(--brightness));
-  border: 1.5px solid var(--border-color);
+  border: 3px solid var(--border-color);
   border-radius: var(--border-radius);
-  background: linear-gradient(96deg, #2a2f36 3.98%, #2a2f36 99.18%);
-
-  width: fit-content;
-  max-width: 750px;
-  margin-top: 0.6rem;
-  margin-bottom: 0.6rem;
+  background: rgba(226, 163, 199, 0.08);
+  max-width: 60rem;
+  margin: 0.6rem auto;
   padding: 2rem;
   display: flex;
-  box-sizing: border-box;
-  flex-wrap: nowrap;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+  align-items: center;
 }
 
 .leftProj {
-  flex: 0 0 30%;
+  flex: 0 0 40%;
   flex-direction: column;
   align-items: center;
   display: flex;
-  padding-right: 5%;
   position: relative;
   min-width: 0;
+  min-height: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: hidden;
 }
 
 .rightProj {
   flex: 1;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   min-width: 0;
 }
-
 .leftProj .image {
-  position: absolute;
-  top: 20%;
-  max-height: 80%;
-  max-width: 100%;
-  object-fit: cover;
+  max-width: none;
+  max-height: none;
+  height: auto;
+  width: auto;
+  object-fit: contain;
 }
 
 .leftProj .date {
   width: fit-content;
   color: var(--text-color);
   font-family: var(--font-primary);
-  font-size: 0.875rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding-bottom: 0.3rem;
   text-align: center;
 }
 
 .project .title {
   color: var(--text-color);
   font-family: var(--font-primary);
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 2.25rem;
+  font-weight: 800;
   overflow-wrap: break-word;
   word-wrap: break-word;
   margin-top: 0.1rem;
-  text-align: left;
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -77,10 +85,10 @@ a {
 
 .project .description {
   color: var(--text-color);
-  font-family: var(--font-secondary);
-  font-size: 1.125rem;
-  font-weight: 400;
-  text-align: left;
+  font-family: var(--font-primary);
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
   word-break: break-word;
   overflow-wrap: break-word;
 }

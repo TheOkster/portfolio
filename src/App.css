@@ -7,7 +7,7 @@
 
 body {
   font-family: "Inter";
-  background: #171721;
+  background: #FDF7FA;
 }
 
 .outerColumns {
@@ -26,64 +26,36 @@ header h1 {
   font-size: 3rem;
   font-weight: 700;
   font-family: "Inter";
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
   display: inline-block;
 }
 
-.aboutMe {
-  color: #ffffff;
+.projectsTitle {
   font-family: "Inter";
-  font-size: 1.25rem;
-}
-
-.aboutMe h1 {
   font-size: 3rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 800;
+  color: #3A2A3D;
+  padding-bottom: .5rem;
   text-align: center;
 }
 
-.aboutMe h2 {
-  font-size: 1.5rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 500;
-  text-align: start;
+.projectsDrop{
+  width: 12rem;
+  height: 0.5rem;
+  border-radius: 1.5625rem;
+  background: #60435F;
 }
-
-.outerColumns {
-  display: flex;
-  height: 100vh;
-  overflow: hidden;
-  justify-items: center;
-}
-
-.outerColumns .aboutMe {
-  flex: 0 0 30%;
-  height: 100vh;
-  overflow: hidden;
+.projectsHeader{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
-@media (max-width: 600px) {
-  h1 {
-    padding-top: 2rem;
-  }
-  .outerColumns {
-    flex-direction: column;
-    overflow: auto;
-    height: 100%;
-  }
-  .outerColumns .aboutMe {
-    max-width: 80%;
-  }
-  .outerColumns div {
-    overflow: auto;
-  }
+.App{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
