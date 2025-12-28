@@ -8,9 +8,8 @@ import DSImage from "./images/3ds.jpeg";
 import NYT from "./images/NYT.png";
 import WebsiteImage from "./images/Website.png";
 import DonkeyKong from "./images/Donkey Kong.png";
-import { Box } from "./Box";
 import { AboutMe } from "./AboutMe";
-import projectsDrop from "./images/projects_drop.svg"
+import Donuts from "./images/Donuts.png"
 function App() {
   return (
     <div className="App">
@@ -51,60 +50,70 @@ function App() {
           <Project
             title="FUSE File Server"
             date_string="Dec 2025 - Present"
-            body="Designing a custom C++ FUSE filesystem, backed by a REST API and SQL-based metadata layer. Implementing core filesystem components (read/write, directory operations, syncing) and developing synchronization logic to keep local and remote states consistent. Creating a Linux CLI and a cross-platform GUI client for interacting with the system."
+            body="Designing a custom C++ FUSE filesystem with an internal REST API and SQL-based metadata. Implementing core filesystem components (read/write, directory operations, syncing) and developing synchronization logic to keep local and remote states consistent. Creating a Linux CLI and a cross-platform GUI client for inter acting with the system."
           />
           <Project
             image={SSImage}
             title="Game Supersampling Project"
             date_string="Apr 2025 - May 2025"
-            body="Developed a C++ game supersampler program as part of MIT's Intro to Computer Vision class that performs 2× super-resolution using a custom convolutional neural network trained in PyTorch and deployed with TensorRT for low-latency inference. The dataset was curated and trained on high-quality in-game screenshots from IGDB to produce appealing results. I integrated the system with the Direct3D Capture API for real-time integration and plan to integrate DirectX rendering modules."
+            body="Developed a C++ game supersampler program as part of MIT's Intro to Computer Vision class that supersamples games by 2× using a custom convolutional neural network trained in PyTorch and deployed with TensorRT for low-latency inference. The dataset was trained on in-game screenshots from IGDB that I heavily curated to produce good results. I integrated the system with the Direct3D Capture API for real-time integration and plan to integrate deeper DirectX rendering modules in the future."
           />
           <Project
             image={CantonaImage}
             title="Cantona"
             date_string="Mar 2025"
             github="https://github.com/TheOkster/Cantona"
-            body="Designed and implemented an Android music player with Jetpack Compose and Kotlin with album browsing, full playback support, and Android Media API integration for background playback and system media controls. The core architecture is fully functional with work improving the UI and adding more advanced features planned for the future."
+            body="Designed and implemented an Android music player with Jetpack Compose and Kotlin with album browsing, full playback support, and Android Media API integration for background playback and status bar media control. The core components are functional, but I plan to improve the UI and add more advanced features in the future."
           />
           <Project
             image={SmoothieImage}
             title="Smoothlie"
             date_string="Jan 2024"
             github="https://github.com/TheOkster/Smoothlie"
-            body="An app created as part of a team of 3 for MIT’s web.lab class/competition. This app suggests a schedule for users based on the tasks they have to do and their existing commitments. This was created using React, JavaScript, and MongoDB. I worked on both the front-end and back-end, specifically implementing most of the pages and the MongoDB database."
+            body="An app created as part of a team of three for MIT’s web.lab competition/class. The app generates daily schedules based on task urgency and existing commitments and was built with React, JavaScript, and MongoDB. I implemented most of the front-end pages, designed and built the REST API, and integrated the scheduling logic with a MongoDB database and the React UI.
+"
+          />
+          <Project
+            image={Donuts}
+            title="Pokemon Legends Z-A Donut Calculator"
+            date_string="Dec 2025"
+            other_links="https://theokster.github.io/Pokemon-Donut-Calculator/"
+            github="https://github.com/TheOkster/Pokemon-Donut-Calculator"
+            body="I built a React website that computes the optimal combination of resources needed to create donuts in the video game Pokémon Legends: Z-A. I implemented a backtracking algorithm that made use of combinatorics to explore valid combinations, then heavily optimized it to be performant even in cases with a large search space."
           />
           <Project
             image={DSImage}
             title="3DS Game Time Parser"
             date_string="Dec 2023"
             github="https://github.com/TheOkster/3DSActivityLogParser/blob/main/main.py"
-            body="Designed and built a Python tool that converts undocumented Nintendo 3DS Activity Log binary data into accurate per-game playtime metrics. Spent significant time reverse-engineering raw hex file formats without no official documentation to  and map low-level binary values to game IDs, gameplay durations, and dates, then packaged the results to be used externally as a CSV and JSON.
+            body="Designed and built a Python tool that converts undocumented Nintendo 3DS Activity Log binary data into accurate per-game playtime metrics. Spent significant time reverse-engineering raw hex file formats without any official documentation to map low-level binary values to game IDs, gameplay durations, and dates, then packaged the results to be used externally as a CSV and JSON.
 "
           />
           <Project
             title="GameCube & Wii GOG Galaxy Plugin"
             date_string="2019-2021"
             github="https://github.com/JTNDev/galaxy-integration-gc"
-            body="This imports GameCube and Wii Games into the program GOG Galaxy and allows users to see which GameCube and Wii games they have in their library. This was created using Python."
+            other_links="https://github.com/JTNDev/galaxy-integration-wii"
+            body="I created a custom GOG Galaxy plugin in Python that integrates GameCube and Wii game libraries into GOG Galaxy. It enables users to see their Nintendo games within a single launcher. I implemented an asynchronous structure to ensure responsive loading. The project reached over 5,000 downloads and obtained contributions from random developers across the world."
           />
           <Project
             title="Image Picker"
             github="https://github.com/TheOkster/ImagePicker"
             date_string="2021"
-            body="A project used to help me compare two images and pick one I found was better without knowing which one was which. This was made using C# and UWP."
+            body="A C# UWP desktop application that shows two images side-by-side and allows users to pick a preferred image without bias."
           />
           <Project
             image={WebsiteImage}
             title="This Website!"
             github="https://github.com/TheOkster/portfolio"
-            date_string="Mar 2, 2024"
-            body="This a very small project but this website was created using React code."
+            date_string="Mar 2024 - Present"
+            body="I created this very website using React code and TypeScript! I designed the layout and components myself and implemented responsive design principles to ensure it looks good on both mobile and desktop."
           />
           <Project
             image={NYT}
             title="NYT Article Analyzer"
-            date_string="Summer 2024"
-            body="This is a very small project, but was used to help assist me classify articles as living wage related for a work project. This was made using Swift and AppKit."
+            date_string="June - Aug 2024"
+            body="Created a small SwiftUI GUI app to compare and analyze New York Times articles to classify whether they are related to living wages."
           />
         </div>
       </div>

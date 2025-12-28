@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Project.css";
-import vector from "./vector.svg";
-import hyperlink1 from "./hyperlink-1.png";
+import vector from "./images/GitHub.svg";
+import hyperlink1 from "./images/hyperlink.png";
 type ProjectProps = {
   image?: string;
   date_string: string;
