@@ -12,10 +12,10 @@
 .aboutMe .headshot {
    border-radius: 0.9375rem;
    border: 5px solid #60435F;
-   width: 12rem;
+   max-width: 12rem;
 }
 .aboutMe .description {
-   width: 48rem;
+   max-width: 48rem;
    color: #3A2A3D;
    text-align: center;
    font-family: Inter;
