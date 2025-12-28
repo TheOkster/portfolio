@@ -51,7 +51,7 @@ function App() {
           <Project
             title="FUSE File Server"
             date_string="Dec 2025 - Present"
-            body="Designing a custom C++ FUSE filesystem that exposes a remote storage service as a native Linux filesystem, backed by a REST API and SQL-based metadata layer. Implementing core filesystem components (read/write, directory operations, syncing) and developing synchronization logic to keep local and remote states consistent. Creating a Linux CLI and a cross-platform GUI client for interacting with the system."
+            body="Designing a custom C++ FUSE filesystem, backed by a REST API and SQL-based metadata layer. Implementing core filesystem components (read/write, directory operations, syncing) and developing synchronization logic to keep local and remote states consistent. Creating a Linux CLI and a cross-platform GUI client for interacting with the system."
           />
           <Project
             image={SSImage}
