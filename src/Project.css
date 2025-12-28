@@ -24,24 +24,24 @@ a.links {
   border: 3px solid var(--border-color);
   border-radius: var(--border-radius);
   background: rgba(226, 163, 199, 0.08);
-  max-width: 60rem;
-  margin: 0.6rem auto;
+  max-width: min(60rem, 90vw);
+  margin: 0.6rem 1rem;
   padding: 2rem;
   display: flex;
   align-items: center;
+
 }
 
 .leftProj {
   flex: 0 0 40%;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  display: flex;
-  position: relative;
-  min-width: 0;
-  min-height: 0;
+  justify-content: center;
   padding-left: 2rem;
   padding-right: 2rem;
   overflow: hidden;
+  height: 100%;
 }
 
 .rightProj {
@@ -50,17 +50,20 @@ a.links {
   align-items: center;
   display: flex;
   min-width: 0;
+  min-height: 0;
 }
 .leftProj .image {
-  max-width: none;
-  max-height: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
   height: auto;
   width: auto;
   object-fit: contain;
 }
 
 .leftProj .date {
-  width: fit-content;
+  width: 100%;
   color: var(--text-color);
   font-family: var(--font-primary);
   font-size: 1.15rem;

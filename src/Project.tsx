@@ -24,47 +24,7 @@ const Project: React.FC<ProjectProps> = ({
   const imageRef = useRef<HTMLImageElement>(null);
   const dateRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (!rightRef.current || !imageRef.current) return;
 
-    let rafId: number | null = null;
-    const clamp = () => {
-      if (rafId) cancelAnimationFrame(rafId);
-      rafId = requestAnimationFrame(() => {
-        if (!rightRef.current || !imageRef.current) return;
-
-        const availableHeight =
-          rightRef.current.offsetHeight -
-          (dateRef.current?.offsetHeight ?? 0);
-
-        if (availableHeight <= 0) return;
-
-        const img = imageRef.current;
-
-        const naturalWidth = img.naturalWidth;
-        const naturalHeight = img.naturalHeight;
-
-        if (!naturalWidth || !naturalHeight) return;
-
-        const scale = availableHeight / naturalHeight;
-        const limit = 0.8;
-
-        img.style.height = availableHeight * limit + "px";
-        img.style.width = naturalWidth * scale * limit + "px";
-      });
-    };
-
-    const observer = new ResizeObserver(clamp);
-    observer.observe(rightRef.current);
-
-    // run once immediately
-    clamp();
-
-    return () => {
-      observer.disconnect();
-      if (rafId) cancelAnimationFrame(rafId);
-    };
-  }, []);
   return (
     <section className="project">
       <div className="leftProj">

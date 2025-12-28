@@ -34,6 +34,7 @@ function App() {
             display: "flex",
             flexDirection: "column",
             overflowY: "scroll",
+            alignItems: "center",
           }}
         >
           {/**
