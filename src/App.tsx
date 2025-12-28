@@ -42,30 +42,29 @@ function App() {
              * Consider automatically populating this from a file or the like.
              */}
           <Project
-            title="FUSE File Server"
-            date_string="Nov 2025 - Present"
-            body="I'm currently creating a C++ file server built off FUSE as a personal project."
-          />
-          <Project
             image={DonkeyKong}
             title="NES Emulator"
             date_string="Oct 2025 - Dec 2025"
-            body="As part of MIT's 6.205 Digital Systems Laboratory class, I created an NES emulator with 2 other people on a Xilinx FPGA with SystemVerilog. While the project unfortunately is not working end to end, the part I was responsible for, the PPU, is able to generate a working frame with background rendering if given the correct memory in simulation! As part of the project, I created numerous test cases to test timing, memory systems, image generation, and much more and had to study lots of documentation from the NESDev wiki to learn how the NES worked and how to implement elements of it myself. The image above shows a frame captured of Donkey Kong in game from my module!"
+            body="As part of MIT's 6.205 Digital Systems Laboratory class, I created an NES emulator with 2 other people on a Xilinx FPGA with SystemVerilog. The part I was responsible for, the PPU, is able to generate a working frame with background rendering if given the correct memory in simulation! As part of the project, I created numerous test cases to test timing, memory systems, image generation, and much more with cocotb. I had to study lots of documentation from the NESDev wiki to learn how the NES worked and how to implement elements of it myself. The image above shows a frame captured of Donkey Kong in game from my module!"
             github="https://github.com/TheOkster/NES-Emulator"
-            other_links="https://github.com/TheOkster/Cantona"
+          />
+          <Project
+            title="FUSE File Server"
+            date_string="Dec 2025 - Present"
+            body="Designing a custom C++ FUSE filesystem that exposes a remote storage service as a native Linux filesystem, backed by a REST API and SQL-based metadata layer. Implementing core filesystem components (read/write, directory operations, syncing) and developing synchronization logic to keep local and remote states consistent. Creating a Linux CLI and a cross-platform GUI client for interacting with the system."
           />
           <Project
             image={SSImage}
             title="Game Supersampling Project"
             date_string="Apr 2025 - May 2025"
-            body="A project made during MIT’s Intro to Computer Vision that upsamples games using a lightweight Pytorch model exported to TensorRT trained off IGDB screenshots. The goal was for the project to be applied to game windows and report back to the user with low latency. The model works fine, but the integration still needs to be worked on."
+            body="Developed a C++ game supersampler program as part of MIT's Intro to Computer Vision class that performs 2× super-resolution using a custom convolutional neural network trained in PyTorch and deployed with TensorRT for low-latency inference. The dataset was curated and trained on high-quality in-game screenshots from IGDB to produce appealing results. I integrated the system with the Direct3D Capture API for real-time integration and plan to integrate DirectX rendering modules."
           />
           <Project
             image={CantonaImage}
             title="Cantona"
             date_string="Mar 2025"
             github="https://github.com/TheOkster/Cantona"
-            body="An Android music app created using Jetpack Compose and Kotlin. Still a work-in-progress but the core functionality is working. "
+            body="Designed and implemented an Android music player with Jetpack Compose and Kotlin with album browsing, full playback support, and Android Media API integration for background playback and system media controls. The core architecture is fully functional with work improving the UI and adding more advanced features planned for the future."
           />
           <Project
             image={SmoothieImage}
@@ -77,9 +76,10 @@ function App() {
           <Project
             image={DSImage}
             title="3DS Game Time Parser"
-            date_string="Jan 2024"
+            date_string="Dec 2023"
             github="https://github.com/TheOkster/3DSActivityLogParser/blob/main/main.py"
-            body="Created a project to help analyze Nintendo 3DS activity log (game time) data from hex files in Python. The difficult part of this project was figuring out which hex values correlated to game times as this was not officially documented anywhere."
+            body="Designed and built a Python tool that converts undocumented Nintendo 3DS Activity Log binary data into accurate per-game playtime metrics. Spent significant time reverse-engineering raw hex file formats without no official documentation to  and map low-level binary values to game IDs, gameplay durations, and dates, then packaged the results to be used externally as a CSV and JSON.
+"
           />
           <Project
             title="GameCube & Wii GOG Galaxy Plugin"
