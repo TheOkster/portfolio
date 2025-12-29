@@ -50,7 +50,7 @@ function App() {
           <Project
             title="FUSE File Server"
             date_string="Dec 2025 - Present"
-            body="Designing a custom C++ FUSE filesystem with an internal REST API and SQL-based metadata. Implementing core filesystem components (read/write, directory operations, syncing) and developing synchronization logic to keep local and remote states consistent. Creating a Linux CLI and a cross-platform GUI client for inter acting with the system."
+            body="Designing a custom C++ FUSE filesystem with an internal REST API and SQL-based metadata. Implementing core filesystem components and developing synchronization logic to keep local and remote states consistent. Creating a Unix/Linux CLI and a cross-platform GUI client for interacting with the file system."
           />
           <Project
             image={SSImage}
@@ -63,14 +63,14 @@ function App() {
             title="Cantona"
             date_string="Mar 2025"
             github="https://github.com/TheOkster/Cantona"
-            body="Designed and implemented an Android music player with Jetpack Compose and Kotlin with album browsing, full playback support, and Android Media API integration for background playback and status bar media control. The core components are functional, but I plan to improve the UI and add more advanced features in the future."
+            body="Built an Android music player with Jetpack Compose and Kotlin with album browsing, full playback support, and Android Media API integration for background playback and status bar media control. The core components are functional, but I plan to improve the UI and add more advanced features in the future."
           />
           <Project
             image={SmoothieImage}
             title="Smoothlie"
             date_string="Jan 2024"
             github="https://github.com/TheOkster/Smoothlie"
-            body="An app created as part of a team of three for MIT’s web.lab competition/class. The app generates daily schedules based on task urgency and existing commitments and was built with React, JavaScript, and MongoDB. I implemented most of the front-end pages, designed and built the REST API, and integrated the scheduling logic with a MongoDB database and the React UI.
+            body="An app created as part of a team of three for MIT’s web.lab competition/class. The app generates daily schedules based on task urgency and existing commitments and was built with React, JavaScript, and MongoDB. I implemented most of the front-end pages, built the REST API, and integrated the scheduling logic with a MongoDB database and the React UI.
 "
           />
           <Project
@@ -79,14 +79,14 @@ function App() {
             date_string="Dec 2025"
             other_links="https://theokster.github.io/Pokemon-Donut-Calculator/"
             github="https://github.com/TheOkster/Pokemon-Donut-Calculator"
-            body="I built a React website that computes the optimal combination of resources needed to create donuts in the video game Pokémon Legends: Z-A. I implemented a backtracking algorithm that made use of combinatorics to explore valid combinations, then heavily optimized it to be performant even in cases with a large search space."
+            body="I built a React website that computes the optimal combination of resources needed to create donuts in the video game Pokémon Legends: Z-A. I implemented a backtracking algorithm that made use of combinatorics to explore valid combinations, then heavily optimized it to be perform well even in cases with a large search space."
           />
           <Project
             image={DSImage}
             title="3DS Game Time Parser"
             date_string="Dec 2023"
             github="https://github.com/TheOkster/3DSActivityLogParser/blob/main/main.py"
-            body="Designed and built a Python tool that converts undocumented Nintendo 3DS Activity Log binary data into accurate per-game playtime metrics. Spent significant time reverse-engineering raw hex file formats without any official documentation to map low-level binary values to game IDs, gameplay durations, and dates, then packaged the results to be used externally as a CSV and JSON.
+            body="Designed a Python tool that converts undocumented Nintendo 3DS Activity Log binary data into accurate per-game playtime metrics. Spent significant time reverse-engineering raw hex file formats without any official documentation to map low-level binary values to game IDs, gameplay durations, and dates, then packaged the results to be used externally as CSVs and JSONs.
 "
           />
           <Project
@@ -94,7 +94,7 @@ function App() {
             date_string="2019-2021"
             github="https://github.com/JTNDev/galaxy-integration-gc"
             other_links="https://github.com/JTNDev/galaxy-integration-wii"
-            body="I created a custom GOG Galaxy plugin in Python that integrates GameCube and Wii game libraries into GOG Galaxy. It enables users to see their Nintendo games within a single launcher. I implemented an asynchronous structure to ensure responsive loading. The project reached over 5,000 downloads and obtained contributions from random developers across the world."
+            body="I created a custom GOG Galaxy plugin in Python that integrates GameCube and Wii game libraries into GOG Galaxy; it enables users to see their Nintendo games within a single launcher. I used asynchronous programming to ensure speedy loading. The project reached over 5,000 downloads and obtained contributions from random developers across the world."
           />
           <Project
             title="Image Picker"
