@@ -10,6 +10,7 @@ import WebsiteImage from "./images/Website.png";
 import DonkeyKong from "./images/Donkey Kong.png";
 import { AboutMe } from "./AboutMe";
 import Donuts from "./images/Donuts.png"
+import Hush from "./images/Hush.png"
 function App() {
   return (
     <div className="App">
@@ -57,6 +58,13 @@ function App() {
             title="Game Supersampling Project"
             date_string="Apr 2025 - May 2025"
             body="Developed a C++ game supersampler program as part of MIT's Intro to Computer Vision class that supersamples games by 2× using a custom convolutional neural network trained in PyTorch and deployed with TensorRT for low-latency inference. The dataset was trained on in-game screenshots from IGDB that I heavily curated to produce good results. I integrated the system with the Direct3D Capture API for real-time integration and plan to integrate deeper DirectX rendering modules in the future."
+          />
+          <Project
+            image={Hush}
+            title="Hush"
+            date_string="Nov 2025 - Dec 2025"
+            body="A small action-based game created in Unity and C# as part of MIT's Creating Video Games class in a team of 6.  I was responsible for integrating the leveling system and many of the on-screen elements. The game allows users to play as a character who gradually builds up sound into a world with none with a system where users can combine actions to strengthen their effect."
+            github="https://github.com/brupesh999/Hush"
           />
           <Project
             image={CantonaImage}
