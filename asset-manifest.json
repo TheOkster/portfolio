@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5fb81878.css",
-    "main.js": "/portfolio/static/js/main.d079bba7.js",
+    "main.js": "/portfolio/static/js/main.01088e50.js",
     "static/js/453.002c2bf5.chunk.js": "/portfolio/static/js/453.002c2bf5.chunk.js",
     "static/media/Cantona.png": "/portfolio/static/media/Cantona.b721521b3dd326912ce1.png",
     "static/media/Donuts.png": "/portfolio/static/media/Donuts.d9655098a848e4147165.png",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/portfolio/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
+    "static/media/Hush.png": "/portfolio/static/media/Hush.8e2be8e98ce5d1e59506.png",
     "static/media/FFVII_from_model.png": "/portfolio/static/media/FFVII_from_model.9e68522407acaa6bc4d9.png",
     "static/media/Website.png": "/portfolio/static/media/Website.689d0b870098441d78a3.png",
     "static/media/3ds.jpeg": "/portfolio/static/media/3ds.c41672d206c99af30e03.jpeg",
@@ -16,11 +17,11 @@
     "static/media/GitHub.svg": "/portfolio/static/media/GitHub.ccfccac8f4f159441e60cf9098b439dc.svg",
     "index.html": "/portfolio/index.html",
     "main.5fb81878.css.map": "/portfolio/static/css/main.5fb81878.css.map",
-    "main.d079bba7.js.map": "/portfolio/static/js/main.d079bba7.js.map",
+    "main.01088e50.js.map": "/portfolio/static/js/main.01088e50.js.map",
     "453.002c2bf5.chunk.js.map": "/portfolio/static/js/453.002c2bf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fb81878.css",
-    "static/js/main.d079bba7.js"
+    "static/js/main.01088e50.js"
   ]
 }
